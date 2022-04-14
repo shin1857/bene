@@ -1,0 +1,231 @@
+/* brand story */
+
+/* banner */
+#visual {
+    position: relative;
+    /* max-width: 1920px; */
+    width: 100%;
+    min-width: 1200px;
+    height: 300px;
+    background-image: url(../img/sub1_1\ bg.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+#visual > .visual_text {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+#visual h2 {
+    width: 1200px;
+    line-height: 65px;
+    position: relative;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+#visual p {
+    width: 1200px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+/* lnb */
+#lnb {
+    position: relative;
+    width: 750px;
+    height: 60px;
+    margin: 0 auto;
+    /* outline: 1px solid green; */
+}
+#lnb > .lnb {
+    position: absolute;
+    
+}
+#lnb > .lnb > li {
+    float: left;
+    width: 250px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 60px;
+}
+#lnb > .lnb > li > a {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+}
+#lnb > .lnb > li > a.active {
+    color: #00a5b1;
+    border-bottom: 4px solid #00a5b1;
+}
+
+.line {
+    width: 100%;
+    min-width: 1200px;
+    border-bottom: 4px solid #ccc;
+    margin: 0 auto;
+  }
+
+/* 브랜드스토리 */
+#content_t {
+    margin: 0 auto;
+    width: 1200px; 
+    height: 775px;
+}
+#content_t .mind01 {
+    width: 1200px; 
+    height: 380px;
+    margin-bottom: 35px;
+    position: relative; 
+    margin-top: 100px;  
+}
+#story01 > .mind01 > .imgbox1 {
+    width: 610px; 
+    height: 380px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#story01 > .mind01 img, .mind02 img {
+    transition-duration: 0.6s;
+    width: 610px;
+}
+
+#story01 > .mind01 img:hover {
+    transform:scale(1.07);
+    transition-duration: 0.6s;
+}
+#story01 > .mind01 h3 {
+    position: absolute;
+    left: 675px; 
+    top: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    color: #273658;
+}
+#story01 > .mind01 p {
+    position: absolute;
+    left: 680px; 
+    top: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #273658;
+}
+#story01 > .mind01 p:last-child {
+    position: absolute;
+    left: 680px; 
+    top: 200px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#story01 > .mind02  {
+    width: 1200px; 
+    height: 395px;
+    position: relative;
+}
+#story01 > .mind02 img:hover {
+    transform:scale(1.07);
+    transition-duration: 0.6s;
+}
+#story01 > .mind02 > .imgbox2 {
+    position: absolute;
+    overflow: hidden;
+    width: 610px;
+    right: 0;
+}
+#story01 > .mind02 p {
+    position: absolute;
+    left: 80px; 
+    top: 60px;
+    color: #273658;
+}
+#story01 > .mind02 p:nth-child(1) { font-weight: 500; font-size: 20px; }
+#story01 > .mind02 p:nth-child(2) { top: 120px; }
+#story01 > .mind02 p:nth-child(3) { top: 200px; }
+#story01 > .mind02 p:nth-child(4) { top: 280px; }
+
+/* 배네켓스토리 */
+#cat-content {
+    width: 100%; 
+    height: 1150px;
+    margin: 0 auto; 
+}
+#cat-content > .cat-img{
+    width: 1200px; 
+    margin: 0 auto;
+    position: relative;
+}
+#cat-content > .cat-img > .cat-img01 {
+    width: 420px; 
+    height: 572px;
+    background: url(../img/sub-bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* outline: 1px solid green; */
+    position: absolute;
+    left: 200px;
+}
+#cat-content > .cat-img > .cat-img02 {
+    width: 400px; height: 240px;
+    background: url(../img/sub-bg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 440px; 
+    left: 80px;
+}
+
+#cat-content > .cat_text {
+    width: 1200px; 
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding-left: 740px;
+}
+#cat-content > .cat_text > h5 { padding-top: 30px; color: #273658;}
+#cat-content > .cat_text > p { 
+    padding: 20px 0 10px; 
+    font-size: 16px;
+    color: #273658;
+}
+/* 베네캣 */
+#cat-content > .benecat {
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+    background: #efefef;
+    margin-top: 60px;
+    border-radius: 130px;
+}
+#cat-content > .benecat > .profile {
+    width: 1200px; height: 350px;
+    position: relative;
+    padding-left: 170px;
+    margin-top: 50px;
+}
+#cat-content > .benecat > .profile img {
+    margin-top: 35px;
+    margin-right: 170px;
+    float: right;
+}
+#cat-content > .benecat > .profile > h5 {
+    padding-bottom: 30px;
+    padding-top: 50px;
+    color: #273658;
+}
+#cat-content > .benecat > .profile p {line-height: 29px; color: #273658;}
+#cat-content > .benecat > .profile p > span {font-weight: 600; margin-right: 25px;}
+#cat-content > .benecat > .profile > .cat-line {
+    outline: 2px solid #273658;
+    width: 70px;
+    position: absolute;
+    left: 170px; top: 83px;
+}
